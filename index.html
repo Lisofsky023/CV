@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lisofsky</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+   <header class="header">
+      <a class="header__logo" href="">
+        <img class="header__logo-img" src="./img/logo.png" alt="lis">
+      </a>
+      <navigation class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#myworks" data-goto=".work" class="nav__link" href="">
+              My works
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link"  data-goto=".about" href="#about">
+              About me
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link"  data-goto=".contacts" href="#contacts">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </navigation>
+   </header>
+
+   <main class="main">
+
+      <section class="about">
+        <div class="about__text-skill">
+          <h1 class="about__header">Hello World!</h1>
+          <p class="about__text">Меня зовут <span class="about__orange">Лисовский</span> Алексей</p>
+          <p class="about__description">Я занимаюсь <span class="about__orange">Frontend</span> разработкой современных интерфейсов
+            и компонентов в приложениях и сайтах.
+           Люблю принимать участие в проектах которые делают повседневную жизнь лучше!
+           Буду рад сотрудничеству!</p>
+          <p class="about__description">Навыки: JavaScript, ES6, React, SCSS, HTML, Linux Ubuntu, CSS, Gulp, Twig, Adobe Photoshop, Git, Bootstrap, Figma, методология БЭМ, jQuery, PixelPerfect, Кроссбраузерная и адаптивная вёртска, UX/UI HTML5
+          </p>
+          <ul class="about__list">
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/javascript.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/react.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/html.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/css.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/sass.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/gulp.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/jquery.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/gitlab.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/linux.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/visual-studio-code.png" alt="">
+            </li>
+            <li class="about__item">
+              <img class="about__skill-img" src="./img/figma.png" alt="">
+            </li>
+          </ul>
+        </div>
+        <img class="about__img" src="./img/me.jpg" alt="">
+      </section>
+
+      <section id="myworks" class="works ">
+        <div class="container">
+          <h2 class="works__header work">React <span class="yellow">Js</span></h2>
+          
+          <ul class="works__list">
+            <li class="works__item">
+                <a href="https://lisofsky023.github.io/react-quiz/" class="works__link">
+                  <img class="works__img" src="./img/quiz.png" alt="">
+                  <h3 class="works__subtitle">Quiz on React</h3>
+                  <ul>
+                    <li class="works__desc-adaptive">React Js</li>
+                    <li class="works__desc-adaptive">SCSS</li>
+                  </ul>
+                </a>
+              </a>
+            </li>
+            <li class="works__item">
+              <a href="#" class="works__link">
+                <img class="works__img" src="./img/todo.png" alt="">
+                <h3 class="works__subtitle">Todo list</h3>
+                <p class="works__desc">Lorem ipsum dolor sit amet,      consectetur adipisicing elit. Ad beatae consequatur com-modi voluptas exercitatio-nem vero cumque. Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet? Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet</p>
+              </a>
+            </a>
+            </li>
+            <li class="works__item">
+              <a href="#" class="works__link">
+                <img class="works__img" src="./img/todo.png" alt="">
+                <h3 class="works__subtitle">Todo list</h3>
+                <p class="works__desc">Lorem ipsum dolor sit amet,      consectetur adipisicing elit. Ad beatae consequatur com-modi voluptas exercitatio-nem vero cumque. Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet? Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet</p>
+              </a>
+            </a>
+          </li>
+          <li class="works__item">
+            <a href="#" class="works__link">
+              <img class="works__img" src="./img/todo.png" alt="">
+              <h3 class="works__subtitle">Todo list</h3>
+              <p class="works__desc">Lorem ipsum dolor sit amet,      consectetur adipisicing elit. Ad beatae consequatur com-modi voluptas exercitatio-nem vero cumque. Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet? Rerum cumque natus rem culpa voluptates, beatae quidem ut blanditiis repellat numquam velit amet</p>
+            </a>
+            </a>
+          </li>
+        </ul>
+       </div>
+      </section>
+
+      <section class="works">
+        <div class="container">
+          <h2 class="works__header adaptive">Adaptive <span class="layout">layout</span></h2>
+          
+          <ul class="works__list">
+            <li class="works__item">
+                <a href="https://lisofsky023.github.io/Tinyone/" class="works__link adaptive-bg">
+                  <img class="works__img" src="./img/tiny.png" alt="">
+                  <h3 class="works__subtitle tiny-header">Landing page on bootstrap</h3>
+                  <ul>
+                    <li class="works__desc-adaptive">HTML</li>
+                    <li class="works__desc-adaptive">CSS</li>
+                    <li class="works__desc-adaptive">BOOTSTRAP</li>
+                  </ul>
+                  <!-- <p class="works__desc-adaptive">HTML CSS BOOTSTRAP</p> -->
+                </a>
+            </li>
+            <li class="works__item">
+              <a href="https://lisofsky023.github.io/shoulder-belts/" class="works__link adaptive-bg">
+                <img class="works__img" src="./img/bg-ada.png" alt="">
+                <h3 class="works__subtitle tiny-header">Landing with modal window</h3>
+                <ul>
+                  <li class="works__desc-adaptive">HTML</li>
+                  <li class="works__desc-adaptive">CSS</li>
+                  <li class="works__desc-adaptive">JS</li>
+                </ul>
+                <!-- <p class="works__desc-adaptive">HTML CSS JS</p> -->
+              </a>            
+            </li>
+            <li class="works__item">
+              <a href="https://lisofsky023.github.io/burger/" class="works__link  adaptive-bg">
+                <img class="works__img" src="./img/burger.png" alt="">
+                <h3 class="works__subtitle tiny-header">Burger menu and tabs navigation</h3>
+                <ul>
+                  <li class="works__desc-adaptive">HTML</li>
+                  <li class="works__desc-adaptive">CSS</li>
+                  <li class="works__desc-adaptive">JS</li>
+                </ul>
+                <!-- <p class="works__desc"></p> -->
+              </a>            
+          </li>
+          <li class="works__item">
+            <a href="https://lisofsky023.github.io/tasty/" class="works__link  adaptive-bg">
+                <img class="works__img" src="./img/tasty.png" alt="">
+                <h3 class="works__subtitle tiny-header">Adaptive Landing Page  with slider for Tasty Cookery</h3>
+                <ul>
+                  <li class="works__desc-adaptive">HTML</li>
+                  <li class="works__desc-adaptive">CSS</li>
+                  <li class="works__desc-adaptive">JS</li>
+                  <li class="works__desc-adaptive">JQUERY, SLIDER SLICK</li>
+                </ul>
+              <!-- <p class="works__desc"></p> -->
+              </a>
+          </li>
+
+        </ul>
+       </div>
+      </section>
+   </main>
+   <footer class="footer">
+
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
