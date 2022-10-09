@@ -523,6 +523,7 @@ ul {
 
   .about {
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .about__header {
@@ -536,10 +537,6 @@ ul {
   }
 
   .about__list {
-    margin-bottom: 20px;
-  }
-
-  .about {
     margin-bottom: 20px;
   }
 
@@ -567,6 +564,10 @@ ul {
   .tel {
     font-size: 25p
   }
+
+  .about-me {
+    border-radius: 18px;
+  }
 }
 
 @media (max-width:375px) {
@@ -580,6 +581,8 @@ ul {
 
   .works__item {
     min-height: 169px;
+    margin-right: 32px;
+    margin-right: 0px;
   }
 
   .works__subtitle {
@@ -591,7 +594,116 @@ ul {
   }
 
   .tel {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .tg, .gm {
+    width: 40px;
+    height: 100%;
   }
 }
-  
+
+@media(max-width: 375px) {
+  .header__logo-img {
+    width: 45px;
+  }
+
+  .nav__link {
+    font-size: 13px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 17px;
+  }
+
+  .about__header {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .about__text {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+
+  .about__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .about__skill-img {
+    height: 18px;
+  }
+
+  .container {
+    padding: 12px 10px 0px 10px;
+  }
+
+  .works__header, .yellow {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .works__img {
+    width: 140px;
+  }
+
+  .works__subtitle {
+    font-size: 18px;
+  }
+
+  .works__desc-adaptive {
+    font-size: 16px;
+  }
+
+  .works__item {
+    min-height: 164px;
+  }
+
+  .adaptive-bg {
+    background-position-x: -389px;
+    background-position-y: -148px;
+    background-size: 148%;
+  }
+
+  .adaptive-bg {
+    background-position-x: -145px;
+    background-position-y: -68px;
+    background-size: 141%;
+  }
+
+  .works__subtitle {
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .works__desc-adaptive {
+    font-size: 14px;
+  }
+
+  .works {
+    margin-bottom: 25px;
+  }
+
+  .about-me {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .header-about, .header-about__color {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  .link-resume {
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+
+
+
+}
